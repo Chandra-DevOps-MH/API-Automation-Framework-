@@ -15,7 +15,7 @@ public class BaseService {
 	public static final String BaseURI = "http://64.227.160.186:8080";
 	RequestSpecification requestspecification;
 	
-	static{
+	{
 		RestAssured.filters(new LoggingFilter());
 	}
 	
